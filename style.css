@@ -41,8 +41,8 @@ img{
   height: auto;
 }
 
-/*imagem grande*/
-.imagens-grandes{
+/*imagem grande (em cima)*/
+.imagens-grandes img {
 width: 500px;
-height: 500px;
+height: auto;
 }
