@@ -9,7 +9,7 @@ body{
   background-color: rgba(148, 184, 238, 0.849);
   color: black;
   font-family:"cursive";
-  text-align:
+  text-align: center;
 }
 
 h1{
@@ -21,7 +21,10 @@ h1{
 
 h2{
 font-family:"cursive";
+}
 
+section{
+  margin: 40px;
 }
 
 img{
@@ -30,3 +33,5 @@ img{
   width: 500px;
   height: auto;
 }
+
+
