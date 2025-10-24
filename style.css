@@ -7,5 +7,20 @@
 }
 body{
   background-color: rgba(248, 222, 77, 0.849);
-   font-family: "Lexend", sans-serif;
+  color: black;
+  font-family: "Lexend", sans-serif;
+  text-align: center;
+}
+
+h1{
+  font-family: cursive;
+  background-color: transparent;
+  color: darkolivegreen;
+}
+
+img{
+ object-fit: cover;
+  margin: 10px;
+  width: 500px;
+  height: auto;
 }
