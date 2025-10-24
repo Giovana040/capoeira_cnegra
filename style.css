@@ -8,14 +8,23 @@
 body{
   background-color: rgba(248, 222, 77, 0.849);
   color: black;
-  font-family: "Lexend", sans-serif;
+  font-family: font-family: font-family: "Permanent Marker", cursive;
+  font-weight: 400;
+  font-style: normal;, cursive;
+  font-weight: 400;
+  font-style: normal;
   text-align: center;
 }
 
 h1{
-  font-family: cursive;
+  font-family:"Permanent Marker";
   background-color: transparent;
-  color: darkolivegreen;
+  color: rgb(5, 7, 1);
+}
+
+h2{
+font-family:"Permanent Marker";
+
 }
 
 img{
