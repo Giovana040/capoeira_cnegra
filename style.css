@@ -8,11 +8,7 @@
 body{
   background-color: rgba(248, 222, 77, 0.849);
   color: black;
-  font-family: font-family: font-family: "Permanent Marker", cursive;
-  font-weight: 400;
-  font-style: normal;, cursive;
-  font-weight: 400;
-  font-style: normal;
+  font-family: "Permanent Marker";
   text-align: center;
 }
 
@@ -23,7 +19,7 @@ h1{
 }
 
 h2{
-font-family:"Permanent Marker";
+font-family:"cursive";
 
 }
 
