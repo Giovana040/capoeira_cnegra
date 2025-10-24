@@ -4,11 +4,12 @@
 body{
   background-color: rgba(148, 184, 238, 0.849);
   color: black;
-  font-family: "Permanent Marker", cursive;
+  font-family: "Manrope", sans-serif;
   text-align: center;
 }
 
 h1{
+
   font-family: "Lato", cersive;
   background-color: transparent;
   color: rgb(5, 7, 1);
