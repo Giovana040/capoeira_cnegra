@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+CA:wght@100..400&display=swap');
 
 body{
-  background-color: rgba(201, 206, 214, 0.849);
+  background-color: rgba(119, 121, 122, 0.849);
   color: black;
   font-family: "Manrope", sans-serif;
 }
@@ -12,6 +12,8 @@ h1{
   background-color: transparent;
   color: rgb(5, 7, 1);
   font-size: 70px;
+  align-items: center;
+
 }
 
 h2{
