@@ -21,9 +21,9 @@ font-family: "Manrope", sans-serif;
 }
 
 section{
-  background-color: rgb(25, 86, 201);
+  background-color:rgb(67, 85, 100);
   margin: 35px;
-  border: 4px solid black;
+  border: 4px solid rgb(67, 85, 100);
   display: inline-block;
   padding: 50px 50px;
   margin: 30px auto;
@@ -39,7 +39,7 @@ align-items: center;
 img{
  border: 4px solid black;
   margin: 35px;
-  padding: 5px;
+  padding: 0px;
   align-items: center;
 }
 
