@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+CA:wght@100..400&display=swap');
 
 body{
-  background-color: rgb(195, 207, 213);
+  background-color: rgb(161, 180, 189);
   color: black;
   font-family: "Manrope", sans-serif;
   margin: 0px;
@@ -24,8 +24,8 @@ font-family: "Manrope", sans-serif;
 }
 
 section{
-  background-color:rgb(180, 206, 226);
-  border: 4px solid rgb(180, 206, 226);
+  background-color:rgb(205, 222, 234);
+  border: 4px solid rgb(204, 222, 236);
   padding: 40px;
   margin: 30px auto;
   font-size: 20px;
