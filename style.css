@@ -14,7 +14,7 @@ h1{
   color: rgb(0, 0, 0);
   border: 4px;
   border-radius: 18px;
-  box-sizing: 0 0 20px rgba(88, 95, 124, 0.834);
+  box-shadow:0 0 20px rgb(106, 106, 160);
   background-color: rgb(152, 177, 190);
   display: inline-block;
   padding:15px;
