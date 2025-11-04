@@ -14,12 +14,13 @@ h1{
   color: rgb(0, 0, 0);
   border: 4px;
   border-radius: 18px;
+  box-sizing: 0 0 20px rgb(56, 61, 80);
   background-color: rgb(179, 198, 216);
   display: inline-block;
   padding:15px;
   margin: 30px auto;
   font-size: 80px;
-  box-sizing: 0 0 20px rgb(56, 61, 80);
+  
 }
 
 h2{
@@ -45,7 +46,7 @@ img{
 }
 
 button{
-   background-color: rgb(52, 73, 94);
+  background-color: rgb(52, 73, 94);
   color: white;
   border: none;
   padding: 12px 24px;
