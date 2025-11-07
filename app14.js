@@ -17,7 +17,7 @@ videoBtn.addEventListener("click", () => {
     isVideoVisible = true;
   } else {
     // Volta para a imagem original
-    mediaSection.innerHTML = `<img id="capoeiraImg" src="Beach Capoeira.jpeg" alt="Capoeira na praia">`;
-    isVideoVisible = false;
+    mediaSection.innerHTML = '<img id="capoiraImg" src="Beach Capoeira.jpeg" alt="imagem grande 1">';
+isVideoVisible = false;
   }
 });
