@@ -1,17 +1,23 @@
-
-const toggleBtn = document.getElementById("toggleBtn");
-toggleBtn.addEventListener("click", () => {
-  alert("Você clicou no botão!");
-});
-
 const videoBtn = document.getElementById("videoBtn");
-const videoContainer = document.getElementById("videoContainer");
-const closeVideo = document.getElementById("closeVideo");
+const mediaSection = document.getElementById("mediaSection");
+
+let isVideoVisible = false;
 
 videoBtn.addEventListener("click", () => {
-  videoContainer.style.display = "block";
-});
-
-closeVideo.addEventListener("click", () => {
-  videoContainer.style.display = "none";
+  if (!isVideoVisible) {
+    // Troca imagem por vídeo
+    mediaSection.innerHTML = `
+      <iframe width="560" height="315"
+        src="https://www.youtube.com/embed/hJHPCN-9Owk?autoplay=1"
+        title="Vídeo de Capoeira"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+      </iframe>`;
+    isVideoVisible = true;
+  } else {
+    // Volta para a imagem original
+    mediaSection.innerHTML = `<img id="capoeiraImg" src="Beach Capoeira.jpeg" alt="Capoeira na praia">`;
+    isVideoVisible = false;
+  }
 });
