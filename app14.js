@@ -1,5 +1,5 @@
 const videoBtn = document.getElementById("videoBtn");
-const mediaSection = document.getElementById("mediaSection");
+const mediaSection = document.getElementById("imagem-grande");
 
 let isVideoVisible = false;
 
