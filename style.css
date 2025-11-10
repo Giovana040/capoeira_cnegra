@@ -46,10 +46,11 @@ section{
 
 img,
 iframe {
-border: 3px solid black;
 border-radius: 10px;
 display: block;
 margin: 20px auto;
+ box-shadow: 0 0 50px rgb(2, 2, 59);
+
 }
 
 #videoBtn {
