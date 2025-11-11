@@ -74,3 +74,31 @@ box-shadow: 0 0 50px rgb(80, 80, 137);
 #videoBtn:hover {
   transform: scale(1.1);
 }
+
+.imagem-video .midia {
+  display: flex;                /* Coloca imagem e vídeo lado a lado */
+  justify-content: center;      /* Centraliza na tela */
+  align-items: center;          /* Alinha verticalmente */
+  gap: 30px;                    /* Espaço entre imagem e vídeo */
+  flex-wrap: wrap;              /* Quebra linha no celular */
+}
+
+.imagem-video img,
+.imagem-video video {
+  width: 45%;                   /* Cada um ocupa metade da largura */
+  max-width: 500px;             /* Limita o tamanho */
+  border-radius: 10px;
+  box-shadow: 0 0 50px rgb(80, 80, 137);
+}
+
+/* Responsivo para telas pequenas */
+@media (max-width: 700px) {
+  .imagem-video .midia {
+    flex-direction: column;     /* Empilha imagem e vídeo */
+  }
+
+  .imagem-video img,
+  .imagem-video video {
+    width: 90%;                 /* Mais largo no celular */
+  }
+}
