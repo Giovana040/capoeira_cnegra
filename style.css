@@ -47,9 +47,10 @@ section{
 img,
 iframe {
 border-radius: 10px;
-display: block;
 display: flex;
 gap: 20px;
+justify-content: center;
+align-items: center;
 margin: 20px auto;
 box-shadow: 0 0 50px rgb(80, 80, 137);
 
