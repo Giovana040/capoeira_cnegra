@@ -10,27 +10,27 @@ body{
  text-align: center;
 }
 
+header {
+  background-color: rgba(197,214,224);
+  padding: 30px;
+  box-shadow: 0 0 20px rgb(2, 2, 59);
+}
 
 h1{
  font-family: "Manrope", sans-serif;
- color: rgb(0, 0, 0);
- border: none;
- border-radius: 18px;
- background-color: rgba(197, 214, 224);
- display: inline-block;
- padding:15px;
- margin: 30px auto;
- font-size: 80px;
- box-shadow: 0 0 50px rgb(2, 2, 59);
+ font-size: 70px;
+ margin: 0;
 }
 
-
-h2{
-font-family: "Manrope", sans-serif;
+main{
+  margin: 30px auto;
+  width: 90%;
+  max-width: 1000px;
 }
-
 
 section{
+  color: rgb(209, 224, 233);
+  background-color: rgb(209, 224, 233);
  padding: 40px;
  margin: 30px auto;
  font-size: 20px;
@@ -54,49 +54,52 @@ box-shadow: 0 0 50px rgb(80, 80, 137);
 
 }
 
-#videoBtn {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
+.texto{
+  background-color: azure;
+  border-radius: 15px;
+  padding: 30px;
+  box-shadow: 0 0 40px rgb(2, 2, 59);
+  text-align: left;
+}
+ 
+.mídia {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.mídia img,
+.mídia video {
+  width: 45%;
+  max-width: 500px;
+  border-radius: 15px;
+  box-shadow: 0 0 40px rgb(80, 80, 137);
+}
+
+#toggleBtn {
   background-color: #2c3e50;
   color: white;
   border: none;
-  padding: 15px 20px;
-  border-radius: 50%;
-  font-size: 24px;
+  padding: 15px 25px;
+  border-radius: 25px;
+  font-size: 18px;
   cursor: pointer;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-  transition: transform 0.3s ease;
+  margin-top: 30px;
+  transition: transform 0.2s ease, background-color 0.3s ease;
 }
 
-#videoBtn:hover {
+#toggleBtn:hover {
   transform: scale(1.1);
+  background-color: #1a242f;
 }
 
-.imagem-video .midia {
-  display: flex;                /* Coloca imagem e vídeo lado a lado */
-  justify-content: center;      /* Centraliza na tela */
-  align-items: center;          /* Alinha verticalmente */
-  gap: 30px;                    /* Espaço entre imagem e vídeo */
-  flex-wrap: wrap;              /* Quebra linha no celular */
-}
-
-.imagem-video img,
-.imagem-video video {
-  width: 45%;                   /* Cada um ocupa metade da largura */
-  max-width: 500px;             /* Limita o tamanho */
-  border-radius: 10px;
-  box-shadow: 0 0 50px rgb(80, 80, 137);
-}
-
-/* Responsivo para telas pequenas */
-@media (max-width: 700px) {
-  .imagem-video .midia {
-    flex-direction: column;     /* Empilha imagem e vídeo */
-  }
-
-  .imagem-video img,
-  .imagem-video video {
-    width: 90%;                 /* Mais largo no celular */
-  }
+footer {
+  margin-top: 50px;
+  background-color: rgba(197, 214, 224);
+  padding: 20px;
+  font-size: 16px;
+  box-shadow: 0 -2px 20px rgba(0, 0, 0, 0.3);
 }
