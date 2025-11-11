@@ -29,7 +29,7 @@ main{
 }
 
 section{
-  color: rgb(1, 9, 15);
+  color: rgb(209, 224, 233);
   background-color: rgb(209, 224, 233);
  padding: 40px;
  margin: 30px auto;
@@ -77,6 +77,9 @@ box-shadow: 0 0 50px rgb(80, 80, 137);
   max-width: 500px;
   border-radius: 15px;
   box-shadow: 0 0 40px rgb(80, 80, 137);
+  display: flex;
+  align-items: center;
+  gap: 40px;
 }
 
 #toggleBtn {
